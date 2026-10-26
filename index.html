@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head><script>window.BASE="/ribbons-preview"</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>आज क्या बनेगा? · Ribbons to Pastas by Vaishali Sabnani</title>
+<meta name="description" content="One dish for today from Vaishali Sabnani's kitchen. Not feeling it? Tap your mood and get another.">
+<meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#fbf6ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1714" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/ribbons-preview/assets/ribbon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/ribbons-preview/assets/style.css">
+<script>document.addEventListener("error",e=>{const i=e.target;if(i.tagName==="IMG"&&i.src.startsWith("https://i0.wp.com/")&&!i.dataset.fell){i.dataset.fell=1;i.src="https://"+i.src.slice(18).split("?")[0]}},true)</script>
+</head>
+<body class="aaj">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="/ribbons-preview/" aria-label="Ribbons to Pastas, home">
+      <svg class="brand-ribbon" viewBox="0 0 64 24" aria-hidden="true"><path d="M2 16c8-12 14 6 22-4s12-8 18 0 12 6 20-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      <span class="brand-name">Ribbons <em>to</em> Pastas</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/ribbons-preview/explore/">Explore</a>
+      <a href="/ribbons-preview/recipes/">Recipes</a>
+      <a href="/ribbons-preview/sindhi-kitchen/">Sindhi Kitchen</a>
+      <a href="/ribbons-preview/thalis/">Thalis of India</a>
+      <a href="/ribbons-preview/stories/">Stories</a>
+      <a href="/ribbons-preview/about/">About</a>
+    </nav>
+    <a class="search-btn" href="/ribbons-preview/recipes/#q" aria-label="Search recipes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<main id="main"><section class="aaj-wrap wrap narrow">
+  <p class="aaj-q" lang="hi">आज क्या बनेगा?</p>
+  <p class="muted aaj-by">One dish a day from Vaishali Sabnani’s kitchen. <a href="/ribbons-preview/explore/">Explore all 1,620 recipes</a></p>
+
+  <!-- step 1–2 and 5: one dish -->
+  <div class="aaj-step" data-step="pick">
+    <p class="eyebrow" data-pick-label>Today’s dish</p>
+    <a class="aaj-card" data-pick-link href="#">
+      <span class="aaj-img"><img data-pick-img alt=""></span>
+      <span class="aaj-body">
+        <span class="card-eyebrow" data-pick-where></span>
+        <span class="aaj-title" data-pick-title></span>
+        <span class="aaj-facts" data-pick-facts></span>
+      </span>
+    </a>
+    <div class="aaj-actions">
+      <a class="btn" data-pick-go href="#">I’m making this</a>
+      <button class="btn ghost" type="button" data-cook-send>Send to the cook</button>
+      <button class="btn ghost" type="button" data-not>Not today</button>
+    </div>
+  </div>
+
+  <!-- step 4: moods -->
+  <div class="aaj-step" data-step="mood" hidden>
+    <h1 class="aaj-h">What are you in the mood for?</h1>
+    <p class="muted">Tap any that fit. Skip what doesn’t matter.</p>
+    <fieldset class="moods"><legend>Mood</legend>
+      <button type="button" class="mood" data-k="quick">Quick, under 30 min</button>
+      <button type="button" class="mood" data-k="comfort">Comfort food</button>
+      <button type="button" class="mood" data-k="light">Light &amp; healthy</button>
+      <button type="button" class="mood" data-k="sweet">Something sweet</button>
+      <button type="button" class="mood" data-k="snack">Chai-time snack</button>
+      <button type="button" class="mood" data-k="breakfast">Breakfast</button>
+      <button type="button" class="mood" data-k="guests">Guests coming</button>
+      <button type="button" class="mood" data-k="kids">Kids will eat it</button>
+      <button type="button" class="mood" data-k="festive">Festive</button>
+    </fieldset>
+    <fieldset class="moods"><legend>Cuisine</legend>
+      <button type="button" class="mood" data-r="Sindhi">Sindhi</button>
+      <button type="button" class="mood" data-r="Gujarati">Gujarati</button>
+      <button type="button" class="mood" data-r="North India">North Indian</button>
+      <button type="button" class="mood" data-r="South India">South Indian</button>
+      <button type="button" class="mood" data-r="West & Central">Maharashtrian &amp; more</button>
+      <button type="button" class="mood" data-r="Around the World">Around the world</button>
+    </fieldset>
+    <div class="aaj-actions">
+      <button class="btn" type="button" data-suggest>Suggest a dish</button>
+      <button class="btn ghost" type="button" data-skip>Skip, just show me options</button>
+      <span class="muted" data-match></span>
+    </div>
+  </div>
+
+  <!-- step 6: a few -->
+  <div class="aaj-step" data-step="few" hidden>
+    <h1 class="aaj-h">A few more to choose from</h1>
+    <div class="grid aaj-few" data-few></div>
+    <div class="aaj-actions">
+      <a class="btn" data-all href="/ribbons-preview/recipes/">See all recipes</a>
+      <button class="btn ghost" type="button" data-restart>Start over</button>
+    </div>
+  </div>
+</section>
+</main>
+<div class="cook-backdrop" data-cook-backdrop hidden></div>
+<section class="cook-sheet" data-cook-sheet hidden aria-label="Send to the cook">
+  <div class="cook-sheet-inner">
+    <div class="cook-row"><h2>Send to the cook</h2><button class="btn ghost cook-close" type="button" data-cook-close>Close</button></div>
+    <p class="muted">Ready to paste into WhatsApp for whoever is cooking at home. You can edit it first.</p>
+    <label class="sr" for="cook-text">Recipe message</label>
+    <textarea class="cook-text" id="cook-text" data-cook-text></textarea>
+    <div class="cook-row">
+      <button class="btn" type="button" data-cook-copy>Copy</button>
+      <a class="btn wa" data-cook-wa href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
+    </div>
+  </div>
+</section>
+<footer class="site-foot">
+  <div class="wrap foot-row">
+    <div>
+      <p class="foot-brand">Ribbons <em>to</em> Pastas</p>
+      <p>Recipes, words and photographs by <a href="/ribbons-preview/about/">Vaishali Sabnani</a>, 2011–2025. A home kitchen in Ahmedabad.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/ribbons-preview/" lang="hi">आज क्या बनेगा</a><a href="/ribbons-preview/explore/">Explore</a><a href="/ribbons-preview/recipes/">All recipes</a><a href="/ribbons-preview/sindhi-kitchen/">Sindhi Kitchen</a><a href="/ribbons-preview/thalis/">Thalis of India</a>
+      <a href="/ribbons-preview/marathons/">Her marathons</a><a href="/ribbons-preview/stories/">Stories &amp; crafts</a><a href="/ribbons-preview/about/">About</a>
+    </nav>
+  </div>
+</footer>
+<script src="/ribbons-preview/assets/app.js" defer></script>
+<script src="/ribbons-preview/assets/aaj.js" defer></script></body>
+</html>
